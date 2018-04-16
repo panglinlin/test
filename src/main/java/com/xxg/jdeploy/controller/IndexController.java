@@ -41,6 +41,7 @@ public class IndexController {
         	mv.addObject("javaWebDeployList", javaWebDeployService.getList());
         }
         System.out.println("dalinlingai");
+        System.out.println("dalinlinasdfd");
         return mv;
     }
 
