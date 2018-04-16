@@ -40,6 +40,7 @@ public class IndexController {
         if(moduleList.contains("javaweb")) {
         	mv.addObject("javaWebDeployList", javaWebDeployService.getList());
         }
+        System.out.println("dalinlingai");
         return mv;
     }
 
