@@ -30,6 +30,7 @@ public class IndexController {
      */
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public ModelAndView index() {
+        System.out.print("傻吊");
         // STOPSHIP: 2018/4/16  
         ModelAndView mv = new ModelAndView("index");
         List<String> moduleList = Arrays.asList(modules.split(","));
