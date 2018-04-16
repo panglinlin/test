@@ -40,8 +40,7 @@ public class IndexController {
         if(moduleList.contains("javaweb")) {
         	mv.addObject("javaWebDeployList", javaWebDeployService.getList());
         }
-        System.out.println("dalinlingai");
-        System.out.println("dalinlinasdfd");
+        System.out.println("dalinlingaikkkllll");
         return mv;
     }
 
